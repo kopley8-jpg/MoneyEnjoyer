@@ -1,28 +1,24 @@
 import React from "react"
 import { StyleSheet, View } from "react-native"
 import { PaperProvider, useTheme } from 'react-native-paper';
+import { useStyles } from "./styles";
+import { NavigationContainer } from "@react-navigation/native";
+import { Tabs } from "./Tabs";
 
 const App = () => {
-  const styles = useStyles()
 
   return (
-
-    <View style={styles.container} />
+    <NavigationContainer>
+      <Tabs />
+    </NavigationContainer>
   )
 }
 
-const useStyles = () => {
-
-  const theme = useTheme()
-
-  return (
-    StyleSheet.create({
-      container: {
-        width: "100%",
-        height: "100%",
-        backgroundColor: theme.colors.background
-      }
-    }))
-}
+const styles = StyleSheet.create({
+  container: {
+    flex: 1, // 👈 ОБЯЗАТЕЛЬНО! Без этого View не растягивается
+    backgroundColor: '#fff',
+  },
+})
 
 export default App
