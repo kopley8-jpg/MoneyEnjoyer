@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "prefabPath": "/Users/zecki/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar",
+  "packages": [
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-nitro-modules/android/build/intermediates/prefab_package/debug/prefab",
+    "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab",
+    "/Users/zecki/.gradle/caches/9.3.1/transforms/df72597deb83dc841612506ae2c31828/transformed/hermes-android-250829098.0.14-debug/prefab",
+    "/Users/zecki/.gradle/caches/9.3.1/transforms/6dc37c0f7c7af6db331e59dc9b484ea7/transformed/fbjni-0.7.0/prefab"
+  ]
+}

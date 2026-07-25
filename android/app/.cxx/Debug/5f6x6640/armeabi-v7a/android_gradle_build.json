@@ -1,0 +1,86 @@
+{
+  "buildFiles": [
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/@react-native-vector-icons/material-design-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-nitro-google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-nitro-modules/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/zecki/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/zecki/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "appmodules",
+      "output": "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/armeabi-v7a/libappmodules.so",
+      "runtimeFiles": [
+        "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/armeabi-v7a/libreact_codegen_safeareacontext.so",
+        "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/armeabi-v7a/libreact_codegen_rnscreens.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/6dc37c0f7c7af6db331e59dc9b484ea7/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so"
+      ]
+    },
+    "react_codegen_NitroGoogleSignin::@45690a2203797ee3ccba": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "react_codegen_NitroGoogleSignin"
+    },
+    "react_codegen_NitroModulesSpec::@472a82f9c57d3d3b8644": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "react_codegen_NitroModulesSpec"
+    },
+    "react_codegen_VectorIconsMaterialDesignIcons::@ec6cd781043477cf3896": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "react_codegen_VectorIconsMaterialDesignIcons"
+    },
+    "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "react_codegen_rnscreens",
+      "output": "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/armeabi-v7a/libreact_codegen_rnscreens.so",
+      "runtimeFiles": [
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/6dc37c0f7c7af6db331e59dc9b484ea7/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+      ]
+    },
+    "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
+      "toolchain": "toolchain",
+      "abi": "armeabi-v7a",
+      "artifactName": "react_codegen_safeareacontext",
+      "output": "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/armeabi-v7a/libreact_codegen_safeareacontext.so",
+      "runtimeFiles": [
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/6dc37c0f7c7af6db331e59dc9b484ea7/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/zecki/Library/Android/sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/zecki/Library/Android/sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

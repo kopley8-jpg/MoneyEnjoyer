@@ -24,7 +24,7 @@ export type SpendingCashMoveType = {
   check: {
     category: string;
     name: string;
-    summ: number;
+    price: number;
     value: (typeof VALUES)[number];
   }[];
   paymentWay: ('cash' | 'cashless') | { cashSum: number; cashLessSum: number };

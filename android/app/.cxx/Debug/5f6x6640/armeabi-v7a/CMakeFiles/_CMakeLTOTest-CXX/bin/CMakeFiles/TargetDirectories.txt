@@ -1,0 +1,4 @@
+/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

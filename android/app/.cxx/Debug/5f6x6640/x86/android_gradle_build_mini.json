@@ -1,0 +1,73 @@
+{
+  "buildFiles": [
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/@react-native-vector-icons/material-design-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-nitro-google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-nitro-modules/android/build/generated/source/codegen/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/zecki/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/zecki/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
+      "artifactName": "react_codegen_safeareacontext",
+      "abi": "x86",
+      "output": "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/x86/libreact_codegen_safeareacontext.so",
+      "runtimeFiles": [
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/6dc37c0f7c7af6db331e59dc9b484ea7/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
+      ]
+    },
+    "react_codegen_VectorIconsMaterialDesignIcons::@ec6cd781043477cf3896": {
+      "artifactName": "react_codegen_VectorIconsMaterialDesignIcons",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
+      "artifactName": "react_codegen_rnscreens",
+      "abi": "x86",
+      "output": "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/x86/libreact_codegen_rnscreens.so",
+      "runtimeFiles": [
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/6dc37c0f7c7af6db331e59dc9b484ea7/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so"
+      ]
+    },
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "artifactName": "appmodules",
+      "abi": "x86",
+      "output": "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/x86/libappmodules.so",
+      "runtimeFiles": [
+        "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/x86/libreact_codegen_safeareacontext.so",
+        "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/build/intermediates/cxx/Debug/5f6x6640/obj/x86/libreact_codegen_rnscreens.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/6dc37c0f7c7af6db331e59dc9b484ea7/transformed/fbjni-0.7.0/prefab/modules/fbjni/libs/android.x86/libfbjni.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/jsi/libs/android.x86/libjsi.so",
+        "/Users/zecki/.gradle/caches/9.3.1/transforms/2181563c49e776792576879aac8f8f8b/transformed/react-android-0.86.0-debug/prefab/modules/reactnative/libs/android.x86/libreactnative.so"
+      ]
+    },
+    "react_codegen_NitroModulesSpec::@472a82f9c57d3d3b8644": {
+      "artifactName": "react_codegen_NitroModulesSpec",
+      "abi": "x86",
+      "runtimeFiles": []
+    },
+    "react_codegen_NitroGoogleSignin::@45690a2203797ee3ccba": {
+      "artifactName": "react_codegen_NitroGoogleSignin",
+      "abi": "x86",
+      "runtimeFiles": []
+    }
+  }
+}
