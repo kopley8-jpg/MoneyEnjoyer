@@ -1,14 +1,15 @@
 import React from "react"
-import { StyleSheet, View } from "react-native"
+import { StatusBar, StyleSheet, View } from "react-native"
 import { PaperProvider, useTheme } from 'react-native-paper';
 import { useStyles } from "./styles";
 import { NavigationContainer } from "@react-navigation/native";
 import { Tabs } from "./Tabs";
 
 const App = () => {
-
+  const theme = useTheme()
   return (
     <NavigationContainer>
+      <StatusBar backgroundColor={theme.colors.background} />
       <Tabs />
     </NavigationContainer>
   )

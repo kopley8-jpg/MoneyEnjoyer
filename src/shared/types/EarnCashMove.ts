@@ -1,6 +1,7 @@
 import { VALUES } from '../constants/values';
 
 export type EarnCashMoveType = {
+  type: 'earn';
   id: string;
   date: Date;
   category: string;

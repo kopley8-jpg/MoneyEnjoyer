@@ -1,5 +1,4 @@
 import App from "@/app/App"
-import { View } from "react-native"
 import { GoogleOneTapSignIn } from "react-native-nitro-google-signin"
 import { MD3DarkTheme, PaperProvider } from "react-native-paper"
 import { ThemeProp } from "react-native-paper/lib/typescript/types"
@@ -13,7 +12,7 @@ GoogleOneTapSignIn.configure({ webClientId: "autoDetect" })
 
 const Main = () => {
   return (
-    <SafeAreaView style={{ flex: 1 }} edges={["top", "bottom"]}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: theme.colors?.background }} edges={["top", "bottom"]}>
       <PaperProvider theme={theme}>
         <App />
       </PaperProvider>
