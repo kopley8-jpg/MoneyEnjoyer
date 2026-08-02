@@ -8,9 +8,9 @@
       "@/*": ["src/*"],
       "@app/*": ["src/app/*"],
       "@screens/*": ["src/screens/*"],
-      "@entities/": ["src/entities"],
-      "@features/": ["src/features"],
-      "@widgets/": ["src/widgets"],
+      "@entities/*": ["src/entities/*"],
+      "@features/*": ["src/features/*"],
+      "@widgets/*": ["src/widgets/*"],
       "@shared/*": ["src/shared/*"]
     }
   },

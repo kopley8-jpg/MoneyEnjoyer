@@ -1,14 +1,20 @@
 import { VALUES } from '../constants/values';
-import { EarnCashMoveType, SenderType } from './EarnCashMove';
-import { DestinationType, SpendingCashMoveType } from './SpendCashMove';
+import { PartyType, TransactionType } from './Transaction';
 
 export type UserType = {
-  UUID: string;
-  data: UserDataType;
+  profile: UserProfileData;
+  businessData: UserBusinessData;
 };
 
-export type UserDataType = {
-  senders: SenderType[];
-  destinations: DestinationType[];
-  cashMoves: (EarnCashMoveType | SpendingCashMoveType)[];
+type UserBusinessData = {
+  parties: Record<string, PartyType>;
+  transactions: Record<string, TransactionType>;
+  balance: Partial<Record<(typeof VALUES)[number], number>>;
+};
+
+type UserProfileData = {
+  displayName: string;
+  email: string;
+  photoURL: string;
+  createdAt: number;
 };

@@ -1,6 +1,9 @@
 /Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/CMakeFiles/appmodules.dir
 /Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/CMakeFiles/edit_cache.dir
 /Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/rnasyncstorage_autolinked_build/CMakeFiles/react_codegen_rnasyncstorage.dir
+/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/rnasyncstorage_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/rnasyncstorage_autolinked_build/CMakeFiles/rebuild_cache.dir
 /Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/VectorIconsMaterialDesignIcons_autolinked_build/CMakeFiles/react_codegen_VectorIconsMaterialDesignIcons.dir
 /Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/VectorIconsMaterialDesignIcons_autolinked_build/CMakeFiles/edit_cache.dir
 /Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/x86_64/VectorIconsMaterialDesignIcons_autolinked_build/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,6 @@
 {
   "buildFiles": [
+    "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/@react-native-vector-icons/material-design-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-nitro-google-signin/android/build/generated/source/codegen/jni/CMakeLists.txt",
     "/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/node_modules/react-native-nitro-modules/android/build/generated/source/codegen/jni/CMakeLists.txt",
@@ -49,6 +50,11 @@
       "toolchain": "toolchain",
       "abi": "x86",
       "artifactName": "react_codegen_VectorIconsMaterialDesignIcons"
+    },
+    "react_codegen_rnasyncstorage::@1596841e19ec5b9eeffe": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "react_codegen_rnasyncstorage"
     },
     "react_codegen_rnscreens::@25bcbd507e98d3a854ad": {
       "toolchain": "toolchain",

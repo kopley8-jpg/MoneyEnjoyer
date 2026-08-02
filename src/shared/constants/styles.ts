@@ -7,5 +7,8 @@ export const useScreenContainerStyles = (): StyleProp<ViewStyle> => {
   return {
     flex: 1,
     backgroundColor: theme.colors.background,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
   };
 };

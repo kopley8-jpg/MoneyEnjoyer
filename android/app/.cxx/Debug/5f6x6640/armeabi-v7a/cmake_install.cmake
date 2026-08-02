@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a/rnasyncstorage_autolinked_build/cmake_install.cmake")
   include("/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a/VectorIconsMaterialDesignIcons_autolinked_build/cmake_install.cmake")
   include("/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a/NitroGoogleSignin_autolinked_build/cmake_install.cmake")
   include("/Users/zecki/Documents/nigga/RNProjects/MoneyEnjoyer/android/app/.cxx/Debug/5f6x6640/armeabi-v7a/NitroModulesSpec_autolinked_build/cmake_install.cmake")
