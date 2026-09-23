@@ -1,4 +1,4 @@
-import { UserType } from '../types/User';
+import { UserType } from '../types/user';
 
 export const createNewUser = (email: string, displayName: string): UserType => {
   return {

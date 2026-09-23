@@ -3,13 +3,14 @@
   "compilerOptions": {
     "skipLibCheck": true,
     "types": ["jest"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
       "@app/*": ["src/app/*"],
       "@screens/*": ["src/screens/*"],
       "@entities/*": ["src/entities/*"],
-      "@features/*": ["src/features/*"],
+      "@features/*": ["src/edit-party/*"],
       "@widgets/*": ["src/widgets/*"],
       "@shared/*": ["src/shared/*"]
     }

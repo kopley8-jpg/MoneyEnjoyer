@@ -1,36 +1,24 @@
-import { useScreenContainerStyles } from "@/shared/constants/styles"
-import { getAuth, signOut } from "@react-native-firebase/auth"
-import { StyleSheet, View } from "react-native"
+import { BalanceDisplay } from '@/entities/balance';
+import { useScreenContainerStyles } from '@/shared/constants/styles';
+import { StyleSheet, View } from 'react-native';
 
 export const MainScreen = () => {
-
-  const styles = { ...useStyles(), container: useScreenContainerStyles() }
+  const styles = useStyles();
 
   return (
-    <View style={styles.container} onTouchEnd={async () => {
-      console.log("aboba")
-      await logout()
-    }}>
-
+    <View style={styles.container}>
+      <BalanceDisplay />
     </View>
-  )
-}
+  );
+};
 
 const useStyles = () => {
-
-  return (
-    StyleSheet.create({
-
-    })
-  )
-}
-
-
-export const logout = async () => {
-  try {
-    await signOut(getAuth())
-  } catch (error) {
-    console.error('Logout failed:', error)
-    throw error
-  }
-}
+  return StyleSheet.create({
+    container: {
+      ...useScreenContainerStyles(),
+      justifyContent: 'flex-start',
+      alignItems: 'flex-start',
+      padding: '3%',
+    },
+  });
+};

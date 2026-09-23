@@ -1,4 +1,3 @@
-import { UserType } from '@/shared/types/User';
 import type { FirebaseAuthTypes } from '@react-native-firebase/auth';
 
 export type SessionStateType = {

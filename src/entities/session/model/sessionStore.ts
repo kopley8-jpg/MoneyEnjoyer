@@ -7,7 +7,6 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 export const useSessionStore = create<SessionStoreType>()(
   immer((set) => ({
     firebaseUser: null,
-    user: null,
     initializating: true,
     isRegistering: false,
 
